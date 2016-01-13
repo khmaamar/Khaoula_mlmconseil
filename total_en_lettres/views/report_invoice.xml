@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="report_invoice_conv_document" inherit_id="account.report_invoice_document">
+			<xpath expr="//t/div/p[@t-if='o.comment']" position="before">
+                <p t-field="o.amount_total_text" />
+            </xpath>
+        </template>
+    </data>
+</openerp>

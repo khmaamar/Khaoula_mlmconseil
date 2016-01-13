@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+      <record model="ir.ui.view" id="view_order_form_conv">
+            <field name="name">sale.order.form.conv</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form" />
+            <field name="arch" type="xml">
+              	<xpath expr="//sheet/notebook/page/group[@name='sale_total']" position="after">
+                	<group class="oe_right" colspan="2" name="sale_total_text">   
+                        <field name="amount_total_text" nolabel="1"/>
+                	</group>
+              	</xpath>
+            </field>
+        </record>
+   </data>
+</openerp>

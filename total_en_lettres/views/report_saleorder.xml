@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="extend_report" inherit_id="sale.report_saleorder_document">
+			<xpath expr="//p[@t-field='o.note']" position="before">
+                <p t-field="o.amount_total_text" />
+            </xpath>
+        </template>
+    </data>
+</openerp>
