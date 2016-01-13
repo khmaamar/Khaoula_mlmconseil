@@ -23,11 +23,10 @@ Total du devis en lettres (Dinar Algérien)
 Le module permet d'ajouter un champ amount_total_text dans la table sale_order,
 ou on sauvegarde le total en lettres (arrêté le présent le devis a la somme de ....) 
 après sa conversion(conversion.py)
-
 le module hérite de la vue  sale_order_view.xml , et le rapport views/report_saleorder.xml
+
 -------------------------
 Le module permet d'ajouter un champ amount_total_text dans la table account_invoice,
 ou on sauvegarde le total en lettres (arrêtée la présente facture a la somme de ....) 
 après sa conversion(conversion.py)
-
 le module hérite de la vue  report_invoice_view.xml , et le rapport views/report_saleorder.xml
