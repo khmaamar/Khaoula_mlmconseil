@@ -11,13 +11,13 @@
                        date creation : 01/01/2016                            
                        date modification : 04/01/2016                         
                        version : 0.1                                          
-                       auteur  : MLMConseil.dz                         
+                       auteur  : MLMConseil.dz                     
                                                                               
 ################################################################################
 
 
 # Total en lettres
-Total des devis et factures en lettres (Dinar Algérien)
+' Total des devis et factures en lettres (Dinar Algérien) '
 
 -------------------------
 Le module permet d'ajouter un champ amount_total_text dans la table sale_order,
